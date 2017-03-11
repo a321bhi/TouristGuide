@@ -1,0 +1,238 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#90C3D4"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.touristguide.interestPage"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qHead"
+        android:text="Questions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to swim?"
+        android:textSize="16dp"
+        android:layout_below="@id/qHead"
+        android:id="@+id/q1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q1"
+            android:id="@+id/line1">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/a1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Yes"
+            android:id="@+id/t1"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="No"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Not sure"/>
+        </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to go trekking?"
+            android:textSize="16dp"
+            android:layout_below="@id/line1"
+            android:id="@+id/q2"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q2"
+            android:id="@+id/line2">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a2">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t2"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to do paragliding?"
+            android:textSize="16dp"
+            android:layout_below="@id/line2"
+            android:id="@+id/q3"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q3"
+            android:id="@+id/line3">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a3">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t3"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to go to a beach?"
+            android:textSize="16dp"
+            android:layout_below="@id/line3"
+            android:id="@+id/q4"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q4"
+            android:id="@+id/line4">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a4">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t4"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want adventurous sports?"
+            android:textSize="16dp"
+            android:layout_below="@id/line4"
+            android:id="@+id/q5"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q5"
+            android:id="@+id/line5">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a5">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t5"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to visit a Zoo/National Park?"
+            android:textSize="16dp"
+            android:layout_below="@id/line5"
+            android:id="@+id/q6"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q6"
+            android:id="@+id/line6">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a6">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t6"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you want to go to an Aquarium?"
+            android:textSize="16dp"
+            android:layout_below="@id/line6"
+            android:id="@+id/q7"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q7"
+            android:id="@+id/line7">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a7">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Yes"
+                    android:id="@+id/t7"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="No"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:text="Not sure"/>
+            </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/line7"
+            android:onClick="subinterest"/>
+    </RelativeLayout>
+</ScrollView>
